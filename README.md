@@ -17,3 +17,7 @@ The data mining of satellite imagery was done through the earthengine-api, can b
 ```
 https://github.com/google/earthengine-api
 ```
+Futher, data pickling and processing files can be found in the Data processing folder. 
+## Model training 
+The task of population density estimation is framed as a problem of multiclass-classification, where we have divided different population density ranges into specific classes. Futher a state-of-art pretrained VGG16 CNN model was fine-tuned on our satellite images. <br>
+____ refer this file for fine-tuning details and model results . 
